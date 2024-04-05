@@ -8,12 +8,10 @@ import Camera from './components/Camera';
 
 function App() {
     const sceneRef = useRef();
-    // useFrame(() => {
-    //     document.addEventListener('keydown', (e) => {
-    //         console.log(e);
-    //     });
-    // });
-    console.log(sceneRef);
+
+    // console.log(mouse);
+
+    // console.log(sceneRef);
     return (
         <Canvas
             className="bg-slate-900"
